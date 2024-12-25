@@ -34,7 +34,7 @@ const MarketingAgency = () => {
               {/*-------------------------*/}
               <div className="flex items-center justify-start lg:justify-end ">
                 <div>
-                  <p className="text-zinc-400 text-2xl font-light mt-24 ">
+                  <p className="text-zinc-400 text-2xl font-light mt-24">
                     We’re a team of strategic mdigital marketing <br /> working
                     globally with largest brands, We believe <br /> that
                     progress only happens when you refused to <br /> play things
@@ -44,7 +44,7 @@ const MarketingAgency = () => {
                   </p>
                   {/*-----------Button-----------*/}
                   <div className="mt-16">
-                    <button className="text-xl w-[200px] h-[200px] text-white border-2 border-zinc-400 rounded-full duration-300 bg-black overflow-hidden relative z-10 group">
+                    <button className="text-xl w-[220px] h-[220px] text-white border-2 border-zinc-400 rounded-full duration-300 bg-black overflow-hidden relative z-10 group">
                       <span className="text-zinc-400 group-hover:translate-x-3  group-hover:-translate-y-3 ease-in-out duration-300 delay-50 rounded-full absolute inset-0 flex justify-center items-center -z-10 hover:bg-white">
                         Explor Us < FaArrowUp className="ml-2 rotate-45 -mt-2 text-2xl"/>
                       </span>

@@ -6,8 +6,8 @@ const MarketingAgency = () => {
     <div className="bg-black">
       <div className="container m-auto">
         {/*---------Top-----Bar---------*/}
-        <div className="flex items-center justify-center">
-          <div className="hidden lg:block w-[1px] h-[120px] bg-zinc-400 absolute mt-[120px] ml-[400px]"></div>
+        <div className="flex items-center justify-center z-[10] relative">
+          <div className="hidden lg:block w-[1px] h-[120px] bg-zinc-400 absolute mt-[120px] ml-[400px] "></div>
         </div>
 
         {/*------------Main------Container---------*/}
@@ -44,8 +44,8 @@ const MarketingAgency = () => {
                   </p>
                   {/*-----------Button-----------*/}
                   <div className="mt-16">
-                    <button className="text-xl w-[220px] h-[220px] text-white border-2 border-zinc-400 rounded-full duration-300 bg-black overflow-hidden relative z-10 group">
-                      <span className="text-zinc-400 group-hover:translate-x-3  group-hover:-translate-y-3 ease-in-out duration-300 delay-50 rounded-full absolute inset-0 flex justify-center items-center -z-10 hover:bg-white">
+                    <button className="text-xl w-[220px] h-[220px] text-white border-2 border-zinc-400 rounded-full duration-300 bg-black  hover:bg-white">
+                      <span className="text-zinc-400  ease-in-out duration-300 delay-50 rounded-full  flex justify-center items-center ">
                         Explor Us < FaArrowUp className="ml-2 rotate-45 -mt-2 text-2xl"/>
                       </span>
                     </button>

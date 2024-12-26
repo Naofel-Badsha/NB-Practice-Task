@@ -2,11 +2,13 @@ import { FaPlayCircle } from "react-icons/fa";
 import { IoSettings } from "react-icons/io5";
 import { HiArrowLongDown } from "react-icons/hi2";
 import "../../AllCss/AllCss.css";
+import { BiUpArrowAlt } from "react-icons/bi";
 
 const HomePageBanner = () => {
-  // max-w-[1180px] mt-[69px]
+
+
   return (
-    <div className="container m-auto mt-20">
+    <div className="container m-auto mt-28">
       {/*-------Logo--------Star--------*/}
       <div className="flex items-center justify-between">
         {/*-------Logo--------*/}
@@ -35,7 +37,7 @@ const HomePageBanner = () => {
 
           <div className="flex items-center gap-6">
             {/*------Video------Player--------*/}
-            <div className="w-[160px] h-[160px] border-2 border-black rounded-full hidden xl:block">
+            <div className="w-[170px] h-[170px] border-2 border-black rounded-full hidden xl:block">
               <div className="flex items-center justify-center">
                 <FaPlayCircle className="mt-[65px] text-4xl cursor-pointer" />
               </div>
@@ -45,7 +47,7 @@ const HomePageBanner = () => {
               WATCH <br /> VIDEO INTRO
             </h1>
             {/*-------Settings------Icon---------*/}
-            <div className="w-[60px] h-[60px] bg-black hidden lg:block">
+            <div className="w-[60px] h-[60px] bg-black hidden lg:block fixed right-0">
               <IoSettings className="routetPlassIcon  text-white hover:text-gray-300 text-3xl m-auto absolute mt-[15px] ml-[15px] cursor-pointer" />
             </div>
           </div>

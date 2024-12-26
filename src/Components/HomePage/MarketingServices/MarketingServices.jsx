@@ -3,9 +3,15 @@ import { FaArrowUp } from "react-icons/fa";
 const MarketingServices = () => {
   return (
     <div className="container m-auto py-44">
+      {/*---------Top-----Bar---------*/}
+      <div className="flex items-center justify-center">
+        <div className="hidden lg:block w-[1px] h-[150px] bg-zinc-400 absolute -mt-[200px] mr-48"></div>
+      </div>
       <div className="flex items-center justify-start md:justify-center lg:justify-center xl:justify-center ">
         <div>
-          <h3 className="text-zinc-600 text-3xl font-medium">Services</h3>
+          <h3 className="text-zinc-600 text-3xl font-medium uppercase">
+            Services
+          </h3>
           <h1 className="text-black font-bold text-4xl md:text-6xl lg:text-6xl xl:text-6xl mt-4 uppercase">
             Our marketing <br /> Services
           </h1>
@@ -21,6 +27,11 @@ const MarketingServices = () => {
           of consumers say they use Google to research <br />
           products before buying.
         </p>
+      </div>
+
+      {/*---------Bottom-----Bar---------*/}
+      <div className="flex items-center justify-center">
+        <div className="hidden lg:block w-[1px]  h-[250px] -mt-[400px] bg-zinc-400 absolute mr-48"></div>
       </div>
 
       {/*-------Services--------main----Container-------*/}
@@ -107,7 +118,7 @@ const MarketingServices = () => {
           <div className="flex  justify-between flex-col lg:flex-row py-5 md:py-8 lg:py-10 xl:py-12">
             {/*----------Heading---------*/}
             <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-4xl xl:text-5xl mt-4">
-            CONTENT <br className="hidden lg:block" /> MARKETING
+              CONTENT <br className="hidden lg:block" /> MARKETING
             </h2>
             {/*------------Ittems-------*/}
             <div>
@@ -145,7 +156,7 @@ const MarketingServices = () => {
           <div className="flex  justify-between flex-col lg:flex-row py-5 md:py-8 lg:py-10 xl:py-12">
             {/*----------Heading---------*/}
             <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-4xl xl:text-5xl mt-4">
-            SOCIAL <br className="hidden lg:block" /> MARKETING
+              SOCIAL <br className="hidden lg:block" /> MARKETING
             </h2>
             {/*------------Ittems-------*/}
             <div>
